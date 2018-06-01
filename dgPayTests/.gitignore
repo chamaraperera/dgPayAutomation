@@ -1,0 +1,27 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+*/target/*
+*/target/**
+.classpath
+.project
+.settings/
+target/
+
+.class
+
+# Mac
+*.DS_Store
+
+#Eclipse
+.classpath
+.metadata/
+.project
+.settings/
+
+/screenshot.png
+*.txt

@@ -1,0 +1,2 @@
+LoginId,LoginPwd,EnterpriseName,PIN,EnterpriseType,GroupName,ChainName,ServiceLineName,ServiceLineMinHours,ServiceLineIconPath,MailNo
+arrowme@email.com,123qwe,AutoEP5,823167,Hotel,AutoGP5,AutoChain5,AutoSL5,0,/TestData/SL.png,5
