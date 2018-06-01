@@ -35,20 +35,22 @@ public class DGPayCustLoginStory {
 	
     @Managed
     WebDriver browser;
-    private String phoneNumber = "+6565748394";
-    private String password = "qwer1234";
+    private String validphoneNumber = "+6565748394";
+    private String validpassword = "qwer1234";
+    private String invalidphoneNumber = "+6565748394";
+    private String invalidpassword = "qwer1234";
     
 
     @Test
     @Title ("Login with valid credentials")
     public void validCustLogin() {
-    		dgpCustLogin.loginWithValidCredentials(phoneNumber, password);
+    		dgpCustLogin.loginWithValidCredentials(validphoneNumber, validpassword);
     }
     
     @Test
     @Title ("Login with valid credentials")
     public void invalidCustLogin() {
-    		dgpCustLogin.loginWithValidCredentials(phoneNumber, password);
+    		dgpCustLogin.loginWithValidCredentials(invalidphoneNumber, invalidpassword);
     }
     
     
