@@ -54,7 +54,7 @@ public class DGPayCustomerHomePage extends PageObject {
 		
 	// Login page Password field
 		public void clickSignUp() {
-			getDriver().findElement(By.name("Signup (e)")).click();
+			getDriver().findElement(By.name("Sign up (e)")).click();
 	}
 			
 		
