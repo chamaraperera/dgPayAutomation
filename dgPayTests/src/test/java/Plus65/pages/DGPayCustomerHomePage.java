@@ -16,14 +16,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import io.appium.java_client.pagefactory.TimeOutDuration;
 
 
-//@DefaultUrl("https://uat.arrowmii.com/en/auth/login")
 @DefaultUrl("https://staging.dgpayglobal.com")
 
 public class DGPayCustomerHomePage extends PageObject {
@@ -39,7 +34,7 @@ public class DGPayCustomerHomePage extends PageObject {
 	
 	// Login page Phone Number field
 	public void enterPhoneNumber(String phoneNumber) {
-		getDriver().findElement(By.xpath("//XCUIElementTypeOther[@name=\"Mobile No. (e)\"]")).sendKeys(phoneNumber);;
+		getDriver().findElement(By.xpath("//XCUIElementTypeOther[@name=\"Mobile No. (e)\"]")).sendKeys(phoneNumber);
 	}
 	
 	// Login page Password field
@@ -56,6 +51,8 @@ public class DGPayCustomerHomePage extends PageObject {
 		public void clickSignUp() {
 			getDriver().findElement(By.name("Sign up (e)")).click();
 	}
+		
+		
 			
 		
 	
